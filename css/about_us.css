@@ -57,14 +57,14 @@ img.banner2{
 	font-weight: 900;
 	text-align: center;
 }
-.cona img{
-	width: 97%;
-	margin:2% auto;
-}
 .cona span{
 	display: block;
 	width: 100%;
 	border:1px solid #ccc;
+}
+.cona img{
+	width: 97%;
+	margin:2% auto;
 }
 .cona p{
 	width: 98%;
