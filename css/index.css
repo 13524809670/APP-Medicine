@@ -1,0 +1,216 @@
+/*弹性布局集合*/
+.banner_btn,
+.subnav ul,
+.con1 .title,
+.con2 .title,
+.news .title,
+.con2 ul{
+	display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+	-webkit-justify-content:space-between;
+	-moz-justify-content:space-between;
+	-ms-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	align-items:center;
+}
+
+/*字体居中集合*/
+.subnav ul li a,
+.subnav ul li a span,
+.news ul li #time,
+.con2 ul li.wrap p{
+	text-align: center;
+}
+
+/*隐藏集合*/
+.banner,
+.con1 p,
+.con2 ul li.wrap{
+	overflow: hidden;
+}
+
+/*宽度集合*/
+.banner,
+.subnav,
+.subnav ul,
+.con1,
+.con2,
+.news,
+.con1 .title,
+.con2 .title,
+.news .title,
+.con2 ul li.wrap p,
+.news ul li{
+	width: 100%;
+} 
+
+/*宽高度集合*/
+.banner_img,
+.banner_img li a img,
+.con2 ul li.wrap > a img,
+.con2 ul li.wrap p a{
+	width: 100%;
+	height: 100%;
+}
+
+/*轮播图*/
+.banner{
+	height: 8.7rem;
+	position: relative;
+}
+.banner_img li{
+	position: absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	display: none;
+}
+.banner_btn{
+	width: 2rem;
+	position: absolute;
+	left:50%;
+	bottom:0.3rem;
+	margin-left:-1rem;
+}
+.banner_btn li{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 2rem;
+	background: #fff;
+}
+.banner_btn li.cur{
+	background: #ccc;
+}
+
+
+
+.con1,.con2,.news,.subnav{
+	-webkit-box-shadow: 0 1px 3px #ccc;
+	-moz-box-shadow: 0 1px 3px #ccc;
+	-ms-box-shadow: 0 1px 3px #ccc;
+	box-shadow: 0 1px 3px #ccc;
+}
+/*二级导航*/
+.subnav{
+	height: 5rem;
+}
+.subnav ul li{margin:2% 0.3rem 0;}
+.subnav ul li a,
+.subnav ul li a span{
+	display: block;
+	font-size: 0.6rem;
+	margin-top: 10%;
+}
+
+
+ /*公司简介*/
+ .con1,.con2,.news{
+ 	padding: 0.5rem 0;
+ }
+.con1 .title,
+.con2 .title,
+.news .title{
+	height: 2.5rem;
+	border-bottom:1px solid #f5f5f5;
+}
+.con1 h2,.con2 h2,.news h2{
+	font-size: 1rem;
+	line-height: 2.5rem;
+	margin-left:.3rem;
+	font-weight: 900;
+}
+.con1 img{
+	width: 97%;
+	margin:0.2rem auto;
+}
+.con1 p{
+	width: 98%;
+	font-size: 0.6rem;
+	height:20%;
+	line-height: 1rem;
+	margin:0 auto;
+	text-overflow:ellipsis;/*超出的文本省略*/
+	text-indent: 1rem;
+}
+
+
+/*产品中心*/
+.con2 ul li.wrap{
+	width: 48%;
+	height: 5.3rem;
+	background: red;
+	border-radius: 10px;
+	position: relative;
+	margin:0.2rem;
+}
+.con2 ul li.wrap p{
+	background: rgba(0,255,0,0.6);
+	position: absolute;
+	bottom:0rem;
+	left:0;
+	height: 1rem;
+	line-height: 1rem;
+}
+.con2 ul li.wrap p a{
+	display: block;
+	color:#fff;
+}
+.con2 .title a,.news .title a{
+	display: block;
+	font-size: 0.7rem;
+	margin-right: 0.3rem;
+}
+
+
+/*新闻中心*/
+.news ul li{
+	margin:0.5rem 0;
+	display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+	-webkit-justify-content:space-between;
+	-moz-justify-content:space-between;
+	-ms-justify-content:space-between;
+	justify-content:space-between;
+}
+.news ul li #time{
+	width: 25%;
+	background: aqua;
+	border-radius: 15px;
+	margin:1.5%;
+}
+.news ul li > div span#day{
+	border-bottom:2px solid #fff;
+	padding:10% 5%;
+	font-size: 1.2rem;
+}
+.news ul li > div span#year{
+	padding:6% 5%;
+	font-size: 0.8rem;
+}
+
+.news ul li .txt{
+	width: 70%;
+	margin-right: 1.5%;
+}
+.news ul li .txt a{color: #666;}
+.news ul li > div span{
+	display: block;	
+	color: #fff;
+}
+.news ul li > div h3{
+	font-size: 0.7rem;
+}
+.news ul li > div p{
+	font-size: 0.6rem;
+	padding:6% 0;
+	text-indent: 0.5rem;
+}
