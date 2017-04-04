@@ -22,9 +22,9 @@ h1, h2, h3, h4, h5, h6, p, figure, form, blockquote { margin: 0; }
 ul, ol, li, dl, dd { margin: 0; padding: 0; }
 ul, ol { list-style: none outside none; }
 h1, h2, h3 { line-height: 2; font-weight: normal; }
-h1 { font-size: 1.8rem; }
+/*h1 { font-size: 1.8rem; }
 h2 { font-size: 1.6rem; }
-h3 { font-size: 1.4rem; }
+h3 { font-size: 1.4rem; }*/
 a{text-decoration: none;}
 
 article, aside, details, figcaption, 
@@ -40,13 +40,14 @@ audio:not([controls]) { display: none; height: 0; }
 svg:not(:root) { overflow: hidden; }
 
 button, input, optgroup, select, textarea { 
-	color: inherit; 
+	/*color: inherit; */
 	font: inherit; 
 	margin: 0; 
 }
+a:focus{outline: none;}
 button { overflow: visible; }
 button, select { text-transform: none; }
-
+input,textarea{outline: none;}
 button, html input[type="button"], 
 input[type="reset"], 
 input[type="submit"] { 
@@ -58,7 +59,7 @@ button[disabled],
 html input[disabled] { cursor: default; }
 
 button::-moz-focus-inner, 
-input::-moz-focus-inner { border: 0; padding: 0; }
+/*input::-moz-focus-inner { border: 0; padding: 0; }*/
 
 input { line-height: normal; }
 
@@ -76,7 +77,9 @@ input[type="search"] {
 }
 input[type="search"]::-webkit-search-cancel-button, 
 input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
-
+textarea{
+	resize:none;
+}
 
 .clear:after{
 	content: "";

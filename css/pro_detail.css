@@ -1,0 +1,54 @@
+.pro_detail,.wrap{
+	-webkit-box-shadow: 0 1px 3px #ccc;
+	-moz-box-shadow: 0 1px 3px #ccc;
+	-ms-box-shadow: 0 1px 3px #ccc;
+	box-shadow: 0 1px 3px #ccc;
+}
+.pro_detail{
+	width: 100%;
+	padding:2% 0;
+}
+.pro_detail h2{
+	font-size: 1.6rem;
+	font-weight: 900;
+	text-align: center;
+}
+.pro_detail small{
+	text-align: center;
+	display: block;
+	margin: -5% 0 1% 0;
+	font-size: 1rem;
+}
+.pro_detail > span{
+	display: block;
+	width: 100%;
+	border:1px solid #ccc;
+}
+.pro_detail img{
+	width: 97%;
+	margin:2% auto;
+}
+.pro_detail p{
+	width: 98%;
+	font-size: 0.6rem;
+	height:20%;
+	line-height: 1rem;
+	margin:0 auto;
+	text-overflow:ellipsis;/*超出的文本省略*/
+	text-indent: 1rem;
+	overflow: hidden;
+}
+.pro_detail h3,.pro_detail p strong{
+	font-size: 1rem;
+}
+.pro_detail h3{margin-left: 6%;}
+
+.wrap{
+	width: 100%;
+	padding:3% 0;
+}
+.wrap a{
+	color: #666;
+	font-size: 0.6rem;
+	margin: 0 1%;
+}

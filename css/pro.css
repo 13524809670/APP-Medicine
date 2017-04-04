@@ -1,0 +1,71 @@
+/*产品中心*/
+
+.pro_con{
+	padding: 0.5rem 0;
+	-webkit-box-shadow: 0 1px 3px #ccc;
+	-moz-box-shadow: 0 1px 3px #ccc;
+	-ms-box-shadow: 0 1px 3px #ccc;
+	box-shadow: 0 1px 3px #ccc;
+}
+.pro_con h2{
+	font-size: 1.6rem;
+	font-weight: 900;
+	text-align: center;
+}
+.pro_con > span{
+	display: block;
+	width: 100%;
+	border:1px solid #ccc;
+}
+.pro_con ul{
+	display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+	-webkit-justify-content:space-between;
+	-moz-justify-content:space-between;
+	-ms-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	align-items:center;
+}
+.pro_con,.pro_con ul li.wrap p{width: 100%;}
+
+.pro_con ul li.wrap > a img,.pro_con ul li.wrap p a{
+	width: 100%;
+	height: 100%;
+}
+.pro_con ul li.wrap{
+	/*width: 48%;*/
+	background: red;
+	border-radius: 10px;
+	position: relative;
+	margin:0.2rem;
+	overflow: hidden;
+}
+.pro_con ul li.wrap p{
+	background: rgba(0,255,0,0.6);
+	position: absolute;
+	bottom:0rem;
+	left:0;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+}
+.pro_con ul li.wrap p a{
+	display: block;
+	color:#fff;
+}
+
+
+.go_bottm{
+	width: 100%;
+	text-align: center;
+	padding:2% 0;
+	box-shadow: 0 0 3px #ccc inset;
+}
+.go_bottm img{
+	margin: 0 auto;
+}

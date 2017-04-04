@@ -1,5 +1,4 @@
 /*弹性布局集合*/
-.banner_btn,
 .subnav ul,
 .con1 .title,
 .con2 .title,
@@ -35,7 +34,6 @@
 }
 
 /*宽度集合*/
-.banner,
 .subnav,
 .subnav ul,
 .con1,
@@ -50,8 +48,6 @@
 } 
 
 /*宽高度集合*/
-.banner_img,
-.banner_img li a img,
 .con2 ul li.wrap > a img,
 .con2 ul li.wrap p a{
 	width: 100%;
@@ -59,36 +55,27 @@
 }
 
 /*轮播图*/
-.banner{
-	height: 8.7rem;
-	position: relative;
+.swiper-container {
+    width: 100%;
+    height: 100%;
 }
-.banner_img li{
-	position: absolute;
-	left:0;
-	top:0;
-	right:0;
-	bottom:0;
-	margin:auto;
-	display: none;
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
-.banner_btn{
-	width: 2rem;
-	position: absolute;
-	left:50%;
-	bottom:0.3rem;
-	margin-left:-1rem;
-}
-.banner_btn li{
-	width: 0.5rem;
-	height: 0.5rem;
-	border-radius: 2rem;
-	background: #fff;
-}
-.banner_btn li.cur{
-	background: #ccc;
-}
-
 
 
 .con1,.con2,.news,.subnav{
@@ -144,7 +131,7 @@
 /*产品中心*/
 .con2 ul li.wrap{
 	width: 48%;
-	height: 5.3rem;
+	/*height: 5.3rem;*/
 	background: red;
 	border-radius: 10px;
 	position: relative;

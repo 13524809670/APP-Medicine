@@ -1,5 +1,7 @@
 /*头部*/
-.header,.box ul{
+.header,
+.box ul,
+.wrap{
 	display:-webkit-flex;
     display:-moz-box;
     display:-ms-flexbox;
@@ -17,7 +19,9 @@
 	width:100%;
 	margin-bottom: 0.1rem;
 }
-.header .home,.header .logo,.header .nav{margin-top: 5px;}
+.header .home,
+.header .logo,
+.header .nav{margin-top: 5px;}
 
 .header .home{
 	width: 1.8rem;
@@ -25,6 +29,20 @@
 	background: url(../img/home.png) no-repeat;
 	margin-left:1%;
 	cursor: pointer;
+}
+.header .back{
+	width: 1.8rem;
+	height: 1.4rem;
+	background: url(../img/goback.png) no-repeat;
+	margin-left:1%;
+	cursor: pointer;
+}
+.header .home a,
+.header .back a,
+.header .logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 .header .logo{
 	width:3.3rem;
@@ -98,8 +116,50 @@ p.footer{
 }
 
 
+/*address*/
+.nav_address{
+	display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+	-webkit-justify-content:flex-start;
+	-moz-justify-content:flex-start;
+	-ms-justify-content:flex-start;
+	justify-content:flex-start;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	align-items:center;
+	
+}
+.nav_address{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	background: green;
+	font-size: 0.8rem;
+	margin-bottom:2%;
+}
+.nav_address li{
+	margin:0 1%;
+	vertical-align: middle;
+}
+.nav_address li img{
+	width: 1rem;
+	height: 1.2rem;
+}
+.nav_address li,
+.nav_address li a{
+	color:#fff;
+}
 
 
+/*<!-- banner -->*/
+img.banner2{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
 
 
 

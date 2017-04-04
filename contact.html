@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!-- 移动端必备 -->
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>移动端--北雄医药-联系我们</title>
 	
-	<title>移动端--北雄医药-关于我们</title>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/pub.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
+	<script type="text/javascript" src="js/exg.js"></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/app_reset.css">
 	<link rel="stylesheet" type="text/css" href="css/public.css">
-	<link rel="stylesheet" type="text/css" href="css/about_us.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
-
 	<!-- /*头部*/ -->
 	<div class="header">
 		<div class="home"><a href="index.html"></a></div>
@@ -22,35 +24,59 @@
 		<div class="nav"></div>
 	</div>
 
+
 	<!-- 当前位置 -->
 	<ul class="nav_address">
 		<li><img src="img/adr.png" alt=""></li>
 		<li>位置:</li>
 		<li><a href="#">首页></a></li>
-		<li><a href="#">公司介绍</a></li>
+		<li><a href="#">产品详情</a></li>
 	</ul>
 	
+
 	<!-- /*导航*/ -->
 	<div class="box">
 		<ul>
 			<li class="on"><a href="index.html">首页</a></li>
 			<li><a href="about_us.html">关于我们</a></li>
 			<li><a href="news.html">新闻中心</a></li>
-			<li><a href="pro.html">产品中心</a></li>
+			<li><a href="product.html">产品中心</a></li>
 			<li><a href="contact.html">联系我们</a></li>
 			<li id="fixed"><a href="javascript:;">关闭导航</a></li>
 		</ul>
 	</div>
 
+
 	<!-- banner -->
 	<img src="img/m_banner2.jpg" alt="" class="banner2">
 
-	<!-- 公司简介 -->
-	<div class="cona">
-		<h2>公司简介</h2>
+
+	<div class="address">
+		<h2>联系方式</h2>
 		<span></span>
-		<img src="img/0.png" alt="">
-		<p>北雄医药有限公司成立于１９９４年，是专业药品营销机构。公司秉承“诚实守信、务实创新、追求卓越、构建和谐“的经营理念；坚持最好的产品、最优质的服务的宗旨。公司拥有一支业务精、能力强、高素质、年轻化的营销管理团队，销售网络已覆盖全国各级医院；同时以优质的产品、完善的市场网络和雄厚的资金为依托，具有广阔的市场前景。公司进一步加强与国际知名跨国制药公司及国内著名制药企业建立的亲密业务关系，大力开拓国际合作新</p>
+		<ul>
+			<li><h3>北京北雄医药有限公司</h3></li>
+			<li>电话：029-65615026</li>
+			<li>传真：029-65615026</li>
+			<li>邮箱：beixiong@123.com</li>
+			<li>地址：北京市海定区景秀路888号</li>
+		</ul>
+
+		<img src="img/map.jpg" alt="">
+		<form action="">
+			<input type="text" value="姓名" id="name" name="username"> 
+
+			<input type="text" value="电话" id="tel" name="tela">
+
+			<img src="img/qure.jpg" alt="">
+
+			<input type="text" value="验证码" id="code" name="code"> 
+			<span>看不清,换一张</span>
+
+			<textarea name="aa" id="txt" cols="30" rows="10">留言</textarea>
+			<input type="submit" value="提交">
+			<input type="reset" value="重置">
+		</form>	
 	</div>
 
 

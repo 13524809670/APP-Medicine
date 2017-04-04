@@ -1,0 +1,80 @@
+.address{
+	-webkit-box-shadow: 0 1px 3px #ccc;
+	-moz-box-shadow: 0 1px 3px #ccc;
+	-ms-box-shadow: 0 1px 3px #ccc;
+	box-shadow: 0 1px 3px #ccc;
+}
+.address{
+	width: 100%;
+	padding:2% 0;
+}
+.address h2{
+	font-size: 1.6rem;
+	font-weight: 900;
+	text-align: center;
+}
+.address > span{
+	display: block;
+	width: 100%;
+	border:1px solid #ccc;
+}
+.address > img{
+	width: 97%;
+	margin:2% auto;
+	display: block;
+}
+.address ul{
+	width:100%;
+	margin:1% auto 0;
+	text-align: center;
+}
+.address ul li{
+	font-size: 0.7rem;
+	line-height: 1rem;
+}
+.address ul li h3{
+	font-size: 1rem;
+}
+
+form{
+	width: 100%;
+	margin-top:3%;
+}
+form input{
+	border:1px solid #ccc;
+	border-radius: 0.5rem;
+	width: 45%;
+	height: 2rem;
+	line-height: 2rem;
+	margin:2% 0 0 3%;
+	font-size: 0.9rem;
+}
+input[type="text"]{
+	text-indent: 0.3rem;
+	vertical-align: middle;
+}
+form img{
+	width: 30%;
+	height: 2rem;
+	display: inline;
+	margin: 2% 0 0 3%;
+	vertical-align: middle;
+}
+form > span{
+	font-size: 0.6rem;
+}
+input#code{
+	width: 35%;	
+}
+textarea{
+	width: 94%;
+	height: 5rem;
+	border:1px solid #ccc;
+	border-radius: 0.5rem;
+	text-indent: 0.3rem;
+	padding-top:2%;
+	font-size: 0.9rem;
+	margin:2% auto 0;
+	display: block;
+}
+
