@@ -83,11 +83,6 @@
 	-ms-box-shadow: 0 1px 3px #ccc;
 	box-shadow: 0 1px 3px #ccc;
 }
-/*二级导航*/
-/*.subnav{
-	height: 5rem;
-	background: red;
-}*/
 .subnav ul li{padding:2% 0.3rem;}
 .subnav ul li a,
 .subnav ul li a span{

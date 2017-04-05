@@ -38,7 +38,6 @@
 	height: 100%;
 }
 .pro_con ul li.wrap{
-	/*width: 48%;*/
 	background: red;
 	border-radius: 10px;
 	position: relative;
@@ -50,13 +49,14 @@
 	position: absolute;
 	bottom:0rem;
 	left:0;
-	height: 1rem;
-	line-height: 1rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
 	text-align: center;
 }
 .pro_con ul li.wrap p a{
 	display: block;
 	color:#fff;
+	font-size: 0.7rem;
 }
 
 
