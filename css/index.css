@@ -27,7 +27,6 @@
 }
 
 /*隐藏集合*/
-.banner,
 .con1 p,
 .con2 ul li.wrap{
 	overflow: hidden;
@@ -85,15 +84,17 @@
 	box-shadow: 0 1px 3px #ccc;
 }
 /*二级导航*/
-.subnav{
+/*.subnav{
 	height: 5rem;
-}
-.subnav ul li{margin:2% 0.3rem 0;}
+	background: red;
+}*/
+.subnav ul li{padding:2% 0.3rem;}
 .subnav ul li a,
 .subnav ul li a span{
 	display: block;
-	font-size: 0.6rem;
+	font-size: 0.7rem;
 	margin-top: 10%;
+	color:#999;
 }
 
 
@@ -131,7 +132,6 @@
 /*产品中心*/
 .con2 ul li.wrap{
 	width: 48%;
-	/*height: 5.3rem;*/
 	background: red;
 	border-radius: 10px;
 	position: relative;
@@ -140,14 +140,15 @@
 .con2 ul li.wrap p{
 	background: rgba(0,255,0,0.6);
 	position: absolute;
-	bottom:0rem;
+	bottom:0;
 	left:0;
-	height: 1rem;
-	line-height: 1rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
 }
 .con2 ul li.wrap p a{
 	display: block;
 	color:#fff;
+	font-size: 1rem;
 }
 .con2 .title a,.news .title a{
 	display: block;
@@ -169,7 +170,7 @@
 	justify-content:space-between;
 }
 .news ul li #time{
-	width: 25%;
+	width: 20%;
 	background: aqua;
 	border-radius: 15px;
 	margin:1.5%;
@@ -185,9 +186,9 @@
 }
 
 .news ul li .txt{
-	width: 70%;
+	width: 75%;
 	margin-right: 1.5%;
-	margin-top: 1%;
+	/*margin-top: 1%;*/
 }
 .news ul li .txt a{color: #666;}
 .news ul li > div span{
@@ -195,10 +196,10 @@
 	color: #fff;
 }
 .news ul li > div h3{
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 .news ul li > div p{
 	font-size: 0.6rem;
-	padding:6% 0;
 	text-indent: 0.5rem;
+	line-height: 1rem;
 }
