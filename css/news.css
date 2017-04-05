@@ -31,24 +31,24 @@
 }
 
 .news_con ul li #time{
-	width: 25%;
+	width: 20%;
 	background: aqua;
 	border-radius: 15px;
-	margin:1.5%;
 	text-align: center;
+	margin:1.5%;
 }
 .news_con ul li > div span#day{
 	border-bottom:2px solid #fff;
-	padding:10% 5%;
-	font-size: 1.2rem;
+	margin-top:13%;
+	font-size: 1.5rem;
 }
 .news_con ul li > div span#year{
-	padding:6% 5%;
+	margin:8%;
 	font-size: 0.8rem;
 }
 
 .news_con ul li .txt{
-	width: 70%;
+	width: 75%;
 	margin-right: 1.5%;
 	margin-top: 1%;
 }
@@ -58,11 +58,11 @@
 	color: #fff;
 }
 .news_con ul li > div h3{
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 .news_con ul li > div p{
 	font-size: 0.6rem;
-	padding:6% 0;
+	line-height: 1rem;
 	text-indent: 0.5rem;
 }
 
