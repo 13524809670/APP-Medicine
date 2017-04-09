@@ -25,13 +25,13 @@
 .header .back{margin-top: 5px;}
 
 .header .home{
-	margin-left:1%;
+	margin-left:5%;
 }
 .header .back{
-	margin-left:1%;
+	margin-left:5%;
 }
 .header .nav{
-	margin-right:1%;
+	margin-right:5%;
 }
 .header .back,
 .header .nav,
@@ -62,14 +62,14 @@
 	background: rgba(0,0,0,0.9);
 }
 .box ul{
-	width: 98%;
+	width: 90%;
 	-webkit-flex-wrap:wrap;
 	-moz-flex-wrap:wrap;
 	-ms-flex-wrap:wrap;
 	flex-wrap:wrap;
 	position: fixed;
 	top:50%;
-	left:1%;
+	left:5%;
 	margin-top: -25%;
 }
 .box ul li{

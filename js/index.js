@@ -1,15 +1,54 @@
 window.onload= function(){
-	var swiper = new Swiper('.swiper-container', {
+
+	// 轮播图
+	var swiper = new Swiper('.banner .swiper-container', {
         pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
         paginationClickable: true,
-        spaceBetween: 30,
+        spaceBetween: 5,
         centeredSlides: true,
         autoplay: 2500,
         autoplayDisableOnInteraction: false
     });
+
+
+    // 产品滑动(2张2组)
+    var swiper = new Swiper('.con2 .swiper-container', {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+        paginationClickable: true,
+        spaceBetween: 5
+    });
+
+
+    // 新闻无限单张循环
+    var swiper = new Swiper('.news .swiper-container', {
+        paginationClickable: true,
+        spaceBetween: 5,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    
+
+
+    // 获取当前时间
+    var day_a = document.querySelectorAll('#time #day');
+	var year_a = document.querySelectorAll('#time #year');
+	var a = new Date();
+	var year = a.getFullYear();
+	var month = a.getMonth() + 1;
+	var dt = a.getDate();
+	var today = year + "-" + month;
+	for(var i = 0;i < year_a.length;i++){
+		year_a[i].innerHTML = today;
+	}
+	for(var j = 0;j < day_a.length;j++){
+		day_a[j].innerHTML = dt;
+	}
 }
+
+
+
 
 // $(document).ready(function(){
 
