@@ -33,21 +33,21 @@ $(document).ready(function(){
 
 
 
-	$('form [type=submit]').click(function go(){
-		if(confirm('确定提交吗？')){
-			return true;
-		}
-		else{
-			return false;
-		}
-	});
+	// $('form [type=submit]').click(function go(){
+	// 	if(confirm('确定提交吗？')){
+	// 		return true;
+	// 	}
+	// 	else{
+	// 		return false;
+	// 	}
+	// });
 
-	$('form [type=reset]').click(function resetform(){
-		if(confirm('确定重置表单吗？')){
-			return true;
-		}
-		else{
-			return false;
-		}
-	});
+	// $('form [type=reset]').click(function resetform(){
+	// 	if(confirm('确定重置表单吗？')){
+	// 		return true;
+	// 	}
+	// 	else{
+	// 		return false;
+	// 	}
+	// });
 })

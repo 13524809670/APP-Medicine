@@ -34,7 +34,7 @@
 	margin:0 auto;
 	text-overflow:ellipsis;/*超出的文本省略*/
 	text-indent: 1rem;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .pro_detail h3,.pro_detail p strong{
 	font-size: 1rem;
