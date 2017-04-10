@@ -20,7 +20,7 @@ window.onload= function(){
     });
 
 
-    // 新闻无限单张循环
+    // 首页新闻滑动
     var swiper = new Swiper('.news .swiper-container', {
         paginationClickable: true,
         spaceBetween: 5,
@@ -28,10 +28,17 @@ window.onload= function(){
         autoplay: 2500,
         autoplayDisableOnInteraction: false
     });
-    
 
+    // 新闻中心滑动
+    var swiper = new Swiper('.news_con .swiper-container', {
+        paginationClickable: true,
+        spaceBetween: 5,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
 
-    // 获取当前时间
+    // 获取新闻当天时间
     var day_a = document.querySelectorAll('#time #day');
 	var year_a = document.querySelectorAll('#time #year');
 	var a = new Date();
@@ -45,6 +52,15 @@ window.onload= function(){
 	for(var j = 0;j < day_a.length;j++){
 		day_a[j].innerHTML = dt;
 	}
+
+
+	// 产品中心双滑动
+   	var swiper = new Swiper('.pro_con .swiper-container', {
+        slidesPerView: 2,
+        slidesPerColumn: 2,
+        paginationClickable: true,
+        spaceBetween: 5
+    });
 }
 
 

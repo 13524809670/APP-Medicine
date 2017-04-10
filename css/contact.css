@@ -22,6 +22,7 @@
 	width: 97%;
 	margin:2% auto;
 	display: block;
+	border-radius: 0.42rem;
 }
 .address ul{
 	width:100%;
@@ -36,17 +37,19 @@
 	font-size: 1rem;
 }
 
+
+
 form{
-	width: 100%;
-	margin-top:3%;
+	width: 90%;
+	margin:3% auto 0;
 }
 form input{
 	border:1px solid #ccc;
 	border-radius: 0.5rem;
-	width: 45%;
+	width: 49%;
 	height: 2rem;
 	line-height: 2rem;
-	margin:2% 0 0 3%;
+	margin:2% 0 0 0;
 	font-size: 0.9rem;
 }
 input[type="text"]{
@@ -57,17 +60,18 @@ form img{
 	width: 30%;
 	height: 2rem;
 	display: inline;
-	margin: 2% 0 0 3%;
+	margin:2% 2% 0 0;
+	border-radius: 0.42rem;
 	vertical-align: middle;
 }
 form > span{
 	font-size: 0.6rem;
 }
 input#code{
-	width: 35%;	
+	width: 40%;	
 }
 textarea{
-	width: 94%;
+	width: 100%;
 	height: 5rem;
 	border:1px solid #ccc;
 	border-radius: 0.5rem;

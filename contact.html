@@ -10,10 +10,17 @@
 	<script type="text/javascript" src="js/pub.js"></script>
 	<script type="text/javascript" src="js/contact.js"></script>
 	<script type="text/javascript" src="js/exg.js"></script>
-
+	
+	<!-- 手写字体 -->
 	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
+	<!-- APP重置样式 -->
 	<link rel="stylesheet" type="text/css" href="css/app_reset.css">
+
+	<!-- 公共样式 -->
 	<link rel="stylesheet" type="text/css" href="css/public.css">
+
+	<!-- 当前页样式 -->
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
@@ -27,7 +34,7 @@
 
 	<!-- 当前位置 -->
 	<ul class="nav_address">
-		<li><img src="img/adr.png" alt=""></li>
+		<li class="on"><img src="img/adr.png" alt=""></li>
 		<li>位置:</li>
 		<li><a href="#">首页></a></li>
 		<li><a href="#">产品详情</a></li>
@@ -64,18 +71,18 @@
 
 		<img src="img/map.jpg" alt="">
 		<form action="">
-			<input type="text" value="姓名" id="name" name="username"> 
+			<input type="text" value="姓名" id="name" name="username" /> 
 
-			<input type="text" value="电话" id="tel" name="tela">
+			<input type="text" value="电话" id="tel" name="tela" />
 
 			<img src="img/qure.jpg" alt="">
 
-			<input type="text" value="验证码" id="code" name="code"> 
+			<input type="text" value="验证码" id="code" name="code" /> 
 			<span>看不清,换一张</span>
 
 			<textarea name="aa" id="txt" cols="30" rows="10">留言</textarea>
-			<input type="submit" value="提交">
-			<input type="reset" value="重置">
+			<input type="submit" value="提交" onclick="go()" />
+			<input type="reset" value="重置" onclick="resetform()" />
 		</form>	
 	</div>
 

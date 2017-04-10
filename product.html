@@ -7,8 +7,12 @@
 
 	<title>移动端--北雄医药-产品中心</title>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
 	<script type="text/javascript" src="js/pub.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
 	
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/app_reset.css">
 	<link rel="stylesheet" type="text/css" href="css/public.css">
@@ -25,7 +29,7 @@
 
 	<!-- 当前位置 -->
 	<ul class="nav_address">
-		<li><img src="img/adr.png" alt=""></li>
+		<li class="on"><img src="img/adr.png" alt=""></li>
 		<li>位置:</li>
 		<li><a href="#">首页></a></li>
 		<li><a href="#">产品中心</a></li>
@@ -51,79 +55,159 @@
 	<div class="pro_con">
 		<h2>产品中心</h2>
 		<span></span>
-		<ul>
-			<li class="wrap">
-				<a href=""><img src="img/1.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-			
-			<li class="wrap">
-				<a href=""><img src="img/2.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-		</ul>
-		<ul>
-			<li class="wrap">
-				<a href=""><img src="img/3.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-
-			<li class="wrap">
-				<a href=""><img src="img/4.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-		</ul>
-		<ul>
-			<li class="wrap">
-				<a href=""><img src="img/1.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-			
-			<li class="wrap">
-				<a href=""><img src="img/2.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-		</ul>
-		<ul>
-			<li class="wrap">
-				<a href=""><img src="img/3.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-
-			<li class="wrap">
-				<a href=""><img src="img/4.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-		</ul>
-		<ul>
-			<li class="wrap">
-				<a href=""><img src="img/1.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-			
-			<li class="wrap">
-				<a href=""><img src="img/2.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-		</ul>
-		<ul>
-			<li class="wrap">
-				<a href=""><img src="img/3.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-
-			<li class="wrap">
-				<a href=""><img src="img/4.png" alt=""></a>
-				<p class="mask"><a href="">3k抗生素</a></p>
-			</li>
-		</ul>
+		<div class="swiper-container">
+	        <ul class="swiper-wrapper">
+	            <li class="swiper-slide">
+		            <a href="pro_detail">
+		            	<img src="img/1.png" alt="">
+		            </a>
+				    <p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/2.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/3.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/4.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/1.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/2.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/3.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="">
+	            		<img src="img/4.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/1.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/2.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+			    <li class="swiper-slide">
+			    	 <a href="pro_detail">
+			     		<img src="img/3.png" alt=""
+			    	 ></a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/4.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	   		</ul>
+	   </div>
+	   <div class="swiper-container">
+	        <ul class="swiper-wrapper">
+	            <li class="swiper-slide">
+		            <a href="pro_detail">
+		            	<img src="img/1.png" alt="">
+		            </a>
+				    <p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/2.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/3.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/4.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/1.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/2.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/3.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/4.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/1.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/2.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+			    <li class="swiper-slide">
+			    	 <a href="pro_detail">
+			     		<img src="img/3.png" alt=""
+			    	 ></a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	            <li class="swiper-slide">
+	            	<a href="pro_detail">
+	            		<img src="img/4.png" alt="">
+	            	</a>
+			    	<p><a href="pro_detail">3k抗生素</a></p>
+			    </li>
+	   		</ul>
+	   </div>
 	</div>
-
-	<div class="go_bottm">
-		<p>向下滑动加载更多</p>
-		<img src="img/up.png" alt="">
-	</div>
-
 
 	<p class="footer">版权为港机今驰卫浴建材有限公司所有@2013闽ICP备11009004号-1</p>
 </body>

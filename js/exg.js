@@ -9,7 +9,7 @@ window.onload= function(){
 		var nameA = form.username.value;
 		var nameB = name.test(nameA);
 		if(nameB == false){
-			alert("输入格式不正确");
+			alert("姓名不正确");
 			return false;
 		}
 
@@ -26,5 +26,5 @@ window.onload= function(){
 		else{
 			text.style.borderColor = "red";
 		}
-	}
+	};
 }
